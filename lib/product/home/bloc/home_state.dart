@@ -9,7 +9,7 @@ class HomeLoadingState extends HomeState {
 }
 
 class HomeLoadedState extends HomeState {
-  final List myList;
+  final List<MovieModel> myList;
 
 
   HomeLoadedState(

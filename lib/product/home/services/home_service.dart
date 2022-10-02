@@ -13,7 +13,7 @@ class HomeService {
     if (response.statusCode != StatusCode.OK) {
       return null;
     } else {
-      print('GİRDİ : ${response.body}');
+      
       Iterable models = jsonDecode(response.body);
       List<MovieModel> movieModels = [];
       for (var model in models) {
